@@ -56,7 +56,6 @@ body {
 }
 .boton a {
     color: rgb(175, 175, 175);
-    
     animation-name: titulo;
     animation-duration: 20s;
     animation-iteration-count: infinite;
@@ -353,8 +352,11 @@ h2.centrar {
     75% {
         color: orange;
     }
-    100% {
+    90% {
         color: lightblue;
+    }
+    100% {
+        color: greenyellow;
     }
 }
 
