@@ -23,14 +23,24 @@ body {
     background-image: url(../img/fondopag.jpg);
     background-size: 100%;
 }
+.bannerIndex {
+    width: 100%;
+    animation-name: bannerIndex;
+    animation-duration: 20sg;
+    animation-iteration-count: infinite;
+}
 .gradient {
     margin: 0 auto;
     text-align: center;
     font-family: 'roboto';
-    height: 10%;
     width: 50%;
-    background-image: linear-gradient(25deg, rgb(68, 68, 68), rgb(231, 67, 67),rgb(161, 211, 131));
-    border-radius: 5px;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+    transform: skew(-20deg);
+    padding: 5px;
+    animation-name: titulo;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
 }
 .boton {
     margin: 50px auto;
@@ -40,13 +50,26 @@ body {
     background-color: black;
     height: 30px;
     width: 20%;
-    font-family: 'nunito';
+    font-family: 'roboto';
     font-weight: bold;
     text-transform: uppercase;
-    border-radius: 8px;
 }
 .boton a {
-    color: white;
+    color: rgb(175, 175, 175);
+    
+    animation-name: titulo;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+.boton:hover{
+    transform: skew(-20deg);
+    transition: 0.4s;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+}
+.boton a:hover{
+    color: black;
+    transition: 0.4s;
 }
 
 /* BARRA DE NAVEGACION */
@@ -314,6 +337,25 @@ h2.centrar {
 .footer p {
     font-size: 0.6rem;
     margin-top: 20px;
+}
+
+/* KEYFRAMES */
+@keyframes titulo {
+    0% {
+        color: greenyellow;
+    }
+    25% {
+        color: red;
+    }
+    50% {
+        color: blue;
+    }
+    75% {
+        color: orange;
+    }
+    100% {
+        color: lightblue;
+    }
 }
 
 @media (min-width: 780px){
