@@ -23,12 +23,13 @@ body {
     background-image: url(../img/fondopag.jpg);
     background-size: 100%;
 }
+
 .gradient {
     text-align: center;
     font-family: 'roboto';
     width: 100%;
     height: 10vh;
-    background: rgb(255,255,255);
+    background: rgb(255, 255, 255);
     background: radial-gradient(circle, rgba(112, 112, 112, 0.466) 0%, rgba(0, 0, 0, 0.616) 100%);
     padding: 30px 0;
     animation-name: titulo;
@@ -37,6 +38,7 @@ body {
     margin: 50px 0;
     font-size: 20px;
 }
+
 .boton {
     margin: 50px auto;
     display: flex;
@@ -50,16 +52,19 @@ body {
     text-transform: uppercase;
 
 }
+
 .boton a {
     color: rgb(175, 175, 175);
 }
-.boton:hover{
+
+.boton:hover {
     transform: skew(-20deg);
     transition: 0.4s;
-    background: rgb(255,255,255);
-    background: radial-gradient(circle, rgb(95, 95, 95) 0%, rgba(0,0,0,1) 100%);
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgb(95, 95, 95) 0%, rgba(0, 0, 0, 1) 100%);
 }
-.boton a:hover{
+
+.boton a:hover {
     color: rgb(255, 255, 255);
     transition: 0.4s;
 }
@@ -67,7 +72,7 @@ body {
 /* BARRA DE NAVEGACION */
 
 ul {
-    padding-left: 0 !important;
+    padding-left: 0;
 }
 
 nav {
@@ -76,25 +81,31 @@ nav {
     font-family: 'nunito';
     text-transform: uppercase;
 }
+
 li a {
     color: black;
     font-size: 0.8rem;
 }
-.menuHorizontal li a:hover{
+
+.menuHorizontal li a:hover {
     font-weight: 700;
     color: black !important;
 }
+
 .menuHorizontal {
     display: flex;
     justify-content: space-around;
 }
+
 .menuVertical {
     position: absolute;
     display: none;
 }
+
 .menuVertical {
     padding-left: 0 !important;
 }
+
 .menuHorizontal li:hover .menuVertical {
     display: block;
 }
@@ -110,12 +121,14 @@ li a {
     width: 100%;
     padding: 8px 16px;
 }
+
 /* VIAJES */
 
 .portadas img {
     width: 100%;
     padding: 8px 16px;
 }
+
 .descripcion {
     font-family: 'nunito';
     text-align: center;
@@ -123,6 +136,7 @@ li a {
     margin: 10px auto;
     font-size: 1rem;
 }
+
 h2.descripcion {
     font-weight: 200;
 }
@@ -132,12 +146,14 @@ h2.descripcion {
 .banner {
     width: 100%;
 }
+
 h1.titulo {
     font-family: 'roboto';
     text-transform: uppercase;
     text-align: center;
     margin: 20px 0;
 }
+
 p.descripcionDestinos {
     font-family: 'nunito';
     text-align: center;
@@ -147,20 +163,24 @@ p.descripcionDestinos {
     border-radius: 6px;
     padding: 8px;
 }
+
 .galeriaImagenes {
     max-width: 100%;
     margin: 50px auto;
     display: grid;
 }
-.galeriaImagenes img{
+
+.galeriaImagenes img {
     width: 100%;
     padding: 8px 16px;
 }
-.fila img{
+
+.fila img {
     width: 100%;
     padding: 8px 16px;
     border-radius: 4px;
 }
+
 h2.recomendaciones {
     font-family: 'nunito';
     text-transform: uppercase;
@@ -177,17 +197,20 @@ h2.recomendaciones {
     text-transform: uppercase;
     margin-bottom: 30px;
 }
+
 .videos {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     width: 90%;
 }
-.videos iframe{
+
+.videos iframe {
     width: 100%;
     height: 300px;
     border-radius: 4px;
 }
+
 .videos p {
     margin: 10px 0px 30px 15px;
     font-family: 'nunito';
@@ -207,6 +230,7 @@ h2.recomendaciones {
     align-items: center;
     justify-content: space-around;
 }
+
 .historia {
     width: 80%;
     background-color: hsla(0, 0%, 0%, 0.089);
@@ -223,6 +247,7 @@ h2.recomendaciones {
     text-transform: uppercase;
     margin-top: 5px;
 }
+
 .sobreMi h3 {
     margin: 7px;
     font-family: 'nunito';
@@ -240,6 +265,7 @@ h2.recomendaciones {
     font-size: 13px;
     padding: 8px;
 }
+
 .sobreMi img {
     width: 80%;
     border-radius: 10px;
@@ -260,6 +286,7 @@ h2.recomendaciones {
     padding: 20px;
     font-size: 20px;
 }
+
 .formulario p {
     margin: 5px;
     font-size: 15px;
@@ -271,25 +298,31 @@ h2.recomendaciones {
     border-radius: 3px;
     margin-left: 10px;
 }
+
 .extensionInput {
     margin-left: 10px;
     padding: 15px;
     border-radius: 3px;
-    width: 95% ;
+    width: 95%;
 }
+
 .evento {
     font-size: 17;
 }
+
 div.tab span {
     margin-left: 5px;
 }
+
 form span {
     margin-left: 14px;
     font-size: 15px;
 }
-.formulario-centrado label{
+
+.formulario-centrado label {
     font-size: 15px;
 }
+
 .button {
     background-color: #60d394;
     font-size: 20px;
@@ -299,6 +332,7 @@ form span {
     border-radius: 5px;
     margin-bottom: 10px;
 }
+
 h2.centrar {
     text-align: center;
     font-size: 25px;
@@ -348,46 +382,57 @@ h2.centrar {
     0% {
         color: rgb(107, 0, 0);
     }
+
     25% {
         color: rgb(24, 0, 0);
     }
+
     50% {
         color: rgb(87, 87, 87);
     }
+
     75% {
         color: rgb(22, 14, 0);
     }
+
     90% {
         color: rgb(170, 170, 170);
     }
+
     100% {
         color: rgb(20, 20, 20);
     }
 }
 
-@media (min-width: 780px){
+@media (min-width: 780px) {
 
     li a {
         font-size: 1rem;
     }
+
     .logo {
         width: 30%;
     }
+
     .footer ul {
         width: 35%;
     }
-    .footer p{
+
+    .footer p {
         font-size: 0.7rem;
     }
+
     .galeriaPrincipal {
         max-width: 90%;
         margin: 50px auto;
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
+
     .formulario {
         width: 60%;
     }
+
     .sobreMi {
         display: flex;
         flex-direction: row-reverse;
@@ -396,78 +441,94 @@ h2.centrar {
         justify-content: center;
         width: 90%;
     }
+
     .sobreMi img {
         width: 361px;
         height: 426px;
     }
+
     .historia {
         margin-left: 20px;
         min-width: 361px;
         width: 361px;
         height: 426px;
     }
+
     .historia p {
         font-size: 0.7rem;
         padding: 8px;
     }
-    .videos iframe{
+
+    .videos iframe {
         height: 500px;
     }
+
     .descripcion {
         font-size: 1.5rem;
     }
-    
+
     .galeriaImagenes {
         margin: 50px auto;
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
-    .galeriaImagenes img{
+
+    .galeriaImagenes img {
         padding: 8px 16px 16px 16px;
     }
+
     .galeriaImagenes {
         margin: 50px 10px;
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
+
     .fila {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
         margin: 20px 10px;
     }
-    
+
 }
 
 
-@media (min-width:1200px){
-    
+@media (min-width:1200px) {
+
     .logo {
         width: 18%;
     }
+
     nav {
         max-width: 50%;
     }
+
     li a {
         font-size: 1.15rem;
     }
+
     .galeriaPrincipal {
         max-width: 95%;
         margin: 10px auto;
         display: grid;
-        grid-template-columns: repeat(5,1fr);
+        grid-template-columns: repeat(5, 1fr);
     }
+
     main {
         min-height: 80vh;
     }
-    .footer{
+
+    .footer {
         margin-top: 15px;
     }
+
     .footer ul {
         max-width: 20%;
     }
+
     .formulario {
         width: 40%;
     }
+
     .sobreMi {
         display: flex;
         flex-direction: row-reverse;
@@ -476,30 +537,37 @@ h2.centrar {
         justify-content: center;
         width: 90%;
     }
+
     .sobreMi img {
-        width:540px;
+        width: 540px;
         height: 640px;
     }
+
     .historia {
         margin-left: 20px;
-        width:540px;
+        width: 540px;
         height: 640px;
-        
+
     }
+
     .historia p {
         font-size: 1.1rem;
         margin-top: 35px;
         padding: 8px;
     }
-    .videos iframe{
+
+    .videos iframe {
         height: 700px;
     }
+
     .videos p {
         font-size: 15px;
     }
+
     .descripcion {
         font-size: 2rem;
     }
+
     .gradient {
         padding-top: 30px;
         font-size: 30px;
