@@ -1,575 +1,245 @@
+@import url(https://fonts.googleapis.com);
+@import url(https://fonts.gstatic.com);
+@import url(https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap);
 * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none !important;
-    box-sizing: border-box;
-}
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none !important;
+  box-sizing: border-box; }
 
-/* HEADER */
-
-header {
-    margin-bottom: 130px;
-}
-
-.logo {
-    display: block;
-    margin: 20px auto;
-    width: 40%;
-}
-
-/* BODY */
 body {
-    background-image: url(../img/fondopag.jpg);
-    background-size: 100%;
-}
+  background-image: url(../img/fondopag.jpg);
+  background-size: 100%; }
 
-.gradient {
-    text-align: center;
-    font-family: 'roboto';
-    width: 100%;
-    height: 10vh;
-    background: rgb(255, 255, 255);
-    background: radial-gradient(circle, rgba(112, 112, 112, 0.466) 0%, rgba(0, 0, 0, 0.616) 100%);
-    padding: 30px 0;
-    animation-name: titulo;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    margin: 50px 0;
-    font-size: 20px;
-}
+/* VARIABLES */
+/* SECCIONES */
+.header {
+  display: flex;
+  flex-direction: column; }
+  .header a {
+    margin: 0 auto; }
+  .header nav div div ul {
+    margin: 0 auto; }
+    .header nav div div ul li {
+      font-family: "nunito";
+      text-transform: uppercase;
+      font-weight: 600;
+      margin: 0px 15px; }
 
-.boton {
-    margin: 50px auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-    height: 30px;
-    width: 28%;
-    font-family: 'roboto';
-    font-weight: bold;
-    text-transform: uppercase;
+main .galeriaPrincipal div a img {
+  width: 100%;
+  padding: 5px 10px; }
 
-}
-
-.boton a {
-    color: rgb(175, 175, 175);
-}
-
-.boton:hover {
-    transform: skew(-20deg);
-    transition: 0.4s;
-    background: rgb(255, 255, 255);
-    background: radial-gradient(circle, rgb(95, 95, 95) 0%, rgba(0, 0, 0, 1) 100%);
-}
-
-.boton a:hover {
-    color: rgb(255, 255, 255);
-    transition: 0.4s;
-}
-
-/* BARRA DE NAVEGACION */
-
-ul {
-    padding-left: 0;
-}
-
-nav {
-    max-width: 85%;
-    margin: auto;
-    font-family: 'nunito';
-    text-transform: uppercase;
-}
-
-li a {
-    color: black;
-    font-size: 0.8rem;
-}
-
-.menuHorizontal li a:hover {
-    font-weight: 700;
-    color: black !important;
-}
-
-.menuHorizontal {
-    display: flex;
-    justify-content: space-around;
-}
-
-.menuVertical {
-    position: absolute;
-    display: none;
-}
-
-.menuVertical {
-    padding-left: 0 !important;
-}
-
-.menuHorizontal li:hover .menuVertical {
-    display: block;
-}
-
-/* MAIN */
-
-.main {
-    width: 100%;
-    margin: 0 auto;
-}
-
-.main img {
-    width: 100%;
-    padding: 8px 16px;
-}
-
-/* VIAJES */
-
-.portadas img {
-    width: 100%;
-    padding: 8px 16px;
-}
+main .galeriaPrincipal div a .ultima {
+  padding-bottom: 10px; }
 
 .descripcion {
-    font-family: 'nunito';
-    text-align: center;
-    width: 80%;
-    margin: 10px auto;
-    font-size: 1rem;
-}
+  font-family: "nunito";
+  text-align: center;
+  width: 85%;
+  margin: 10px auto;
+  font-size: 1rem;
+  font-weight: 300; }
 
-h2.descripcion {
-    font-weight: 200;
-}
-
-/* DESTINOS */
+.portadas a img {
+  width: 100%;
+  padding: 8px 16px; }
 
 .banner {
-    width: 100%;
-}
+  width: 100%; }
 
-h1.titulo {
-    font-family: 'roboto';
-    text-transform: uppercase;
-    text-align: center;
-    margin: 20px 0;
-}
+.titulo {
+  font-family: "roboto";
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px 0; }
 
-p.descripcionDestinos {
-    font-family: 'nunito';
-    text-align: center;
-    width: 90%;
-    margin: 10px auto;
-    background-color: hsla(0, 0%, 0%, 0.089);
-    border-radius: 6px;
-    padding: 8px;
-}
+.descripcionDestinos {
+  font-family: "nunito";
+  text-align: center;
+  width: 90%;
+  margin: 10px auto;
+  background-color: rgba(0, 0, 0, 0.089);
+  border-radius: 6px;
+  padding: 8px; }
 
 .galeriaImagenes {
-    max-width: 100%;
-    margin: 50px auto;
-    display: grid;
-}
-
-.galeriaImagenes img {
+  max-width: 100%;
+  margin: 50px auto;
+  display: grid; }
+  .galeriaImagenes img {
     width: 100%;
-    padding: 8px 16px;
-}
+    padding: 8px 16px; }
 
-.fila img {
-    width: 100%;
-    padding: 8px 16px;
-    border-radius: 4px;
-}
+.recomendaciones h2 {
+  font-family: "nunito";
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600; }
 
-h2.recomendaciones {
-    font-family: 'nunito';
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 600;
-}
-
-/* VIDEOS */
-
-.misVideos {
-    text-align: center;
-    font-size: 22px;
-    font-family: 'roboto';
-    text-transform: uppercase;
-    margin-bottom: 30px;
-}
-
-.videos {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    width: 90%;
-}
-
-.videos iframe {
-    width: 100%;
-    height: 300px;
-    border-radius: 4px;
-}
-
-.videos p {
-    margin: 10px 0px 30px 15px;
-    font-family: 'nunito';
-    font-size: 12px;
-}
-
-
-/* SOBRE MI */
-
-.carousel {
-    margin-bottom: 30px !important;
-}
+.recomendaciones .fila img {
+  width: 100%;
+  padding: 8px 16px;
+  border-radius: 4px; }
 
 .sobreMi {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.historia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; }
+  .sobreMi .historia {
     width: 80%;
-    background-color: hsla(0, 0%, 0%, 0.089);
+    background-color: rgba(0, 0, 0, 0.089);
     border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-.sobreMi h1 {
-    font-family: 'roboto';
-    padding: 10px;
-    font-size: 35px;
-    font-weight: 600;
-    text-align: center;
-    text-transform: uppercase;
-    margin-top: 5px;
-}
-
-.sobreMi h3 {
-    margin: 7px;
-    font-family: 'nunito';
-    font-weight: 500;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.sobreMi p {
-    font-family: 'nunito';
-    font-weight: 400;
-    margin: 20px 0px;
-    text-align: center;
-    border-radius: 15px;
-    font-size: 13px;
-    padding: 8px;
-}
-
-.sobreMi img {
+    margin: 20px 0; }
+    .sobreMi .historia h1 {
+      font-family: "roboto";
+      padding: 10px;
+      font-size: 35px;
+      font-weight: 600;
+      text-align: center;
+      text-transform: uppercase;
+      margin-top: 5px; }
+    .sobreMi .historia h3 {
+      margin: 7px;
+      font-family: "nunito";
+      font-weight: 500;
+      text-transform: uppercase;
+      text-align: center; }
+    .sobreMi .historia p {
+      font-family: "nunito";
+      font-weight: 400;
+      margin: 20px 0px;
+      text-align: center;
+      border-radius: 15px;
+      font-size: 13px;
+      padding: 8px; }
+  .sobreMi img {
     width: 80%;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
+    border-radius: 10px; }
 
+.boton {
+  margin: 25px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: 30px;
+  width: 28%;
+  font-family: "nunito";
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 4px; }
+  .boton:hover {
+    transform: skew(-20deg);
+    transition: 0.4s;
+    background: white;
+    background: radial-gradient(circle, #5f5f5f 0%, black 100%); }
+  .boton a {
+    color: #afafaf; }
+    .boton a:hover {
+      color: white;
+      transition: 0.4s; }
 
-/* FORMULARIO DE CONTACTO */
+.gradient {
+  text-align: center;
+  font-family: "roboto";
+  width: 100%;
+  height: 10vh;
+  padding: 30px 0;
+  animation-name: titulo;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  margin: 50px 0;
+  font-size: 35px; }
 
-.formulario {
-    background-image: url(../img/fondoform.jpg);
-    color: white;
-    border-radius: 10px;
-    border: black solid 2px;
-    width: 90%;
-    font-family: 'nunito';
-    margin: 30px auto;
-    padding: 20px;
-    font-size: 20px;
-}
+.videos {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 90%; }
+  .videos iframe {
+    width: 100%;
+    height: 300px;
+    border-radius: 4px; }
+  .videos p {
+    margin: 10px 0px 30px 15px;
+    font-family: "nunito";
+    font-size: 12px; }
 
-.formulario p {
+@keyframes titulo {
+  0% {
+    color: #e99b9b; }
+  25% {
+    color: #180000; }
+  50% {
+    color: #575757; }
+  75% {
+    color: #160e00; }
+  90% {
+    color: #aaaaaa; }
+  100% {
+    color: #141414; } }
+
+main h2 {
+  text-align: center;
+  font-size: 25px;
+  font-family: "nunito";
+  font-weight: 100; }
+
+main .formulario {
+  background-image: url(../img/fondoform.jpg);
+  color: white;
+  border-radius: 10px;
+  width: 90%;
+  font-family: "nunito";
+  margin: 30px auto;
+  padding: 20px;
+  font-size: 20px; }
+  main .formulario .formulario p {
     margin: 5px;
-    font-size: 15px;
-}
-
-.input {
+    font-size: 15px; }
+  main .formulario .input {
     width: 95%;
-    padding: 15px;
+    padding: 12px;
     border-radius: 3px;
-    margin-left: 10px;
-}
-
-.extensionInput {
-    margin-left: 10px;
-    padding: 15px;
-    border-radius: 3px;
-    width: 95%;
-}
-
-.evento {
-    font-size: 17;
-}
-
-div.tab span {
-    margin-left: 5px;
-}
-
-form span {
-    margin-left: 14px;
-    font-size: 15px;
-}
-
-.formulario-centrado label {
-    font-size: 15px;
-}
-
-.button {
+    margin-left: 10px; }
+  main .formulario .button {
     background-color: #60d394;
     font-size: 20px;
-    font-family: 'roboto' sans-serif;
+    font-family: "nunito";
     text-align: center;
     font-weight: bold;
     border-radius: 5px;
     margin-bottom: 10px;
-}
-
-h2.centrar {
-    text-align: center;
-    font-size: 25px;
-    font-family: 'nunito';
-    font-weight: 100;
-}
-
-
-
-/* FOOTER */
+    width: 95%;
+    margin-left: 10px;
+    padding: 10px; }
 
 .footer {
-    background-color: rgb(0, 0, 0);
-    color: white;
-    font-family: 'nunito';
-    text-transform: uppercase;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 25px 25px 10px 25px;
-    width: 100%;
-}
-
-.footer h3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: white;
+  max-width: 100%; }
+  .footer h3 {
     font-weight: 200;
-    font-size: 0.87rem;
+    font-size: 1rem;
     letter-spacing: 4px;
     margin-bottom: 10px;
-}
-
-.footer ul {
+    margin-top: 10px;
+    text-transform: uppercase; }
+  .footer ul {
+    padding-left: 0;
     display: flex;
-    justify-content: center;
-    width: 50%;
-    margin: 0 auto;
-    justify-content: space-between;
-}
-
-.footer p {
+    justify-content: center; }
+    .footer ul li {
+      margin: 0 20px; }
+  .footer p {
     font-size: 0.6rem;
-    margin-top: 20px;
-}
+    text-transform: uppercase;
+    font-family: "nunito"; }
 
-/* KEYFRAMES */
-@keyframes titulo {
-    0% {
-        color: rgb(107, 0, 0);
-    }
-
-    25% {
-        color: rgb(24, 0, 0);
-    }
-
-    50% {
-        color: rgb(87, 87, 87);
-    }
-
-    75% {
-        color: rgb(22, 14, 0);
-    }
-
-    90% {
-        color: rgb(170, 170, 170);
-    }
-
-    100% {
-        color: rgb(20, 20, 20);
-    }
-}
-
-@media (min-width: 780px) {
-
-    li a {
-        font-size: 1rem;
-    }
-
-    .logo {
-        width: 30%;
-    }
-
-    .footer ul {
-        width: 35%;
-    }
-
-    .footer p {
-        font-size: 0.7rem;
-    }
-
-    .galeriaPrincipal {
-        max-width: 90%;
-        margin: 50px auto;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .formulario {
-        width: 60%;
-    }
-
-    .sobreMi {
-        display: flex;
-        flex-direction: row-reverse;
-        margin: 50px auto;
-        align-items: center;
-        justify-content: center;
-        width: 90%;
-    }
-
-    .sobreMi img {
-        width: 361px;
-        height: 426px;
-    }
-
-    .historia {
-        margin-left: 20px;
-        min-width: 361px;
-        width: 361px;
-        height: 426px;
-    }
-
-    .historia p {
-        font-size: 0.7rem;
-        padding: 8px;
-    }
-
-    .videos iframe {
-        height: 500px;
-    }
-
-    .descripcion {
-        font-size: 1.5rem;
-    }
-
-    .galeriaImagenes {
-        margin: 50px auto;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .galeriaImagenes img {
-        padding: 8px 16px 16px 16px;
-    }
-
-    .galeriaImagenes {
-        margin: 50px 10px;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .fila {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        margin: 20px 10px;
-    }
-
-}
-
-
-@media (min-width:1200px) {
-
-    .logo {
-        width: 18%;
-    }
-
-    nav {
-        max-width: 50%;
-    }
-
-    li a {
-        font-size: 1.15rem;
-    }
-
-    .galeriaPrincipal {
-        max-width: 95%;
-        margin: 10px auto;
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-    }
-
-    main {
-        min-height: 80vh;
-    }
-
-    .footer {
-        margin-top: 15px;
-    }
-
-    .footer ul {
-        max-width: 20%;
-    }
-
-    .formulario {
-        width: 40%;
-    }
-
-    .sobreMi {
-        display: flex;
-        flex-direction: row-reverse;
-        margin: 50px auto;
-        align-items: center;
-        justify-content: center;
-        width: 90%;
-    }
-
-    .sobreMi img {
-        width: 540px;
-        height: 640px;
-    }
-
-    .historia {
-        margin-left: 20px;
-        width: 540px;
-        height: 640px;
-
-    }
-
-    .historia p {
-        font-size: 1.1rem;
-        margin-top: 35px;
-        padding: 8px;
-    }
-
-    .videos iframe {
-        height: 700px;
-    }
-
-    .videos p {
-        font-size: 15px;
-    }
-
-    .descripcion {
-        font-size: 2rem;
-    }
-
-    .gradient {
-        padding-top: 30px;
-        font-size: 30px;
-    }
-}
+/* FUENTES */

@@ -1,0 +1,42 @@
+.banner {
+    width: 100%;
+}
+.titulo {
+    font-family: $fuente1;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px 0;
+}
+.descripcionDestinos {
+    font-family: $fuente2;
+    text-align: center;
+    width: 90%;
+    margin: 10px auto;
+    background-color: hsla(0, 0%, 0%, 0.089);
+    border-radius: 6px;
+    padding: 8px;
+}
+.galeriaImagenes {
+    max-width: 100%;
+    margin: 50px auto;
+    display: grid;
+    img {
+        width: 100%;
+        padding: 8px 16px;
+    }
+}
+.recomendaciones {
+    h2 {
+        font-family: $fuente2;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 600;
+    }
+    .fila {
+        img {
+            width: 100%;
+            padding: 8px 16px;
+            border-radius: 4px;
+        }
+    }
+}
