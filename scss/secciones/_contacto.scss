@@ -4,8 +4,7 @@ main {
         color: rgba(255, 255, 255, 0);
     }
     h2 {
-        text-align: center;
-        font-size: 25px;
+        @include fuente (25px);
         font-family: $fuente2;
         font-weight: 100;
         width: 90%;

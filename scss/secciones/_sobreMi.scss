@@ -1,6 +1,5 @@
 .sobreMi {
-    display: flex;
-    flex-direction: column;
+    @extend %column;
     align-items: center;
     justify-content: space-around;
 
@@ -25,15 +24,14 @@
             font-family: $fuente2;
             font-weight: 500;
             text-transform: uppercase;
-            text-align: center;
-            font-size: 20px;
+            @include fuente (20px);
         }
 
         p {
             font-family: $fuente2;
             font-weight: 400;
             margin: 20px 0px;
-            text-align: center;
+            @include fuente (13px);
             border-radius: 15px;
             font-size: 13px;
             padding: 8px;
@@ -74,6 +72,8 @@
         }
     }
 }
+
+/* MEDIA QUERY */
 
 @media (min-width:760px) {
     .sobreMi {

@@ -1,5 +1,5 @@
 .gradient {
-    text-align: center;
+    @include fuente (35px);
     font-family: $fuente1;
     width: 100%;
     height: 10vh;
@@ -8,11 +8,9 @@
     animation-duration: 20s;
     animation-iteration-count: infinite;
     margin: 50px 0;
-    font-size: 35px;
 }
 .videos {
-    display: flex;
-    flex-direction: column;
+    @extend %column;
     margin: 0 auto;
     width: 90%;
     iframe {
@@ -30,47 +28,47 @@
 
 @keyframes titulo {
     0% {
-        color: #9e0031;
+        color: $color1;
     }
 
     10% {
-        color: #8e0045;
+        color: $color2;
     }
 
     20% {
-        color: #770058;
+        color: $color3;
     }
 
     30% {
-        color: #600047;
+        color: $color4;
     }
 
     40% {
-        color: #44001A;
+        color: $color5;
     }
 
     50% {
-        color: #9E0031;
+        color: $color1;
     }
 
     60% {
-        color: #8E0045;
+        color: $color2;
     }
 
     70% {
-        color: #770058;
+        color: $color3;
     }
 
     80% {
-        color: #600047;
+        color: $color4;
     }
 
     90% {
-        color: #44001A;
+        color: $color5;
     }
 
     100% {
-        color: #9E0031;
+        color: $color1;
     }
 }
 

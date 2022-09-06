@@ -11,7 +11,9 @@ body {
 }
 
 /* VARIABLES */
-@import './secciones/variables';
+@import './variables/variables';
+@import './variables/extend';
+@import './variables/mixin';
 
 /* SECCIONES */
 @import './secciones/header';
