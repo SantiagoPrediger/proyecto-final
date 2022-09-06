@@ -30,26 +30,66 @@
 
 @keyframes titulo {
     0% {
-        color: rgb(233, 155, 155);
+        color: #9e0031;
     }
 
-    25% {
-        color: rgb(24, 0, 0);
+    10% {
+        color: #8e0045;
+    }
+
+    20% {
+        color: #770058;
+    }
+
+    30% {
+        color: #600047;
+    }
+
+    40% {
+        color: #44001A;
     }
 
     50% {
-        color: rgb(87, 87, 87);
+        color: #9E0031;
     }
 
-    75% {
-        color: rgb(22, 14, 0);
+    60% {
+        color: #8E0045;
+    }
+
+    70% {
+        color: #770058;
+    }
+
+    80% {
+        color: #600047;
     }
 
     90% {
-        color: rgb(170, 170, 170);
+        color: #44001A;
     }
 
     100% {
-        color: rgb(20, 20, 20);
+        color: #9E0031;
     }
+}
+
+
+@media (min-width:760px) {
+    .videos {
+        iframe {
+            height: 500px;
+        }
+    }
+}
+
+@media (min-width:1180px) {
+    .videos {
+        iframe {
+            height: 700px;
+        }
+        p {
+            font-size: 15px;
+        }
+}
 }

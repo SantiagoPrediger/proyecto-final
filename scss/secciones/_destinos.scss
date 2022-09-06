@@ -40,3 +40,25 @@
         }
     }
 }
+
+@media (min-width:760px) {
+    .galeriaImagenes {
+        margin: 50px 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        img {
+            padding: 16px 16px;
+        }
+    }
+    .recomendaciones {
+        .fila {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            margin: 20px 10px;
+        }
+    }
+}
+
+@media (min-width:1180px) {
+   
+}

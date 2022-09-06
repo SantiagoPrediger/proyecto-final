@@ -26,6 +26,7 @@
             font-weight: 500;
             text-transform: uppercase;
             text-align: center;
+            font-size: 20px;
         }
 
         p {
@@ -70,6 +71,56 @@
         &:hover {
             color: rgb(255, 255, 255);
             transition: 0.4s;
+        }
+    }
+}
+
+@media (min-width:760px) {
+    .sobreMi {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 50px auto;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        img {
+            width: 361px;
+            height: 426px;
+        }
+        .historia {
+            margin-left: 20px;
+            min-width: 361px;
+            width: 361px;
+            height: 426px;
+            p {
+                font-size: 0.7rem;
+                padding: 8px;
+            }
+        }
+    }
+}
+
+@media (min-width:1180px) {
+    .sobreMi {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 50px auto;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        img {
+            width: 540px;
+            height: 640px;
+        }
+        .historia {
+            margin-left: 20px;
+            width: 540px;
+            height: 640px;
+            p {
+                font-size: 1.1rem;
+                padding: 8px;
+                margin-top: 35px;
+            }
         }
     }
 }

@@ -1,7 +1,10 @@
+.active {
+    font-weight: 600;
+}
 .header {
+    
     display: flex;
     flex-direction: column;
-
     a {
         margin: 0 auto;
     }
@@ -10,6 +13,9 @@
         div {
             div {
                 ul {
+                    .dropdown-menu {
+                        --bs-dropdown-link-active-bg: rgb(196, 196, 196) !important;
+                    }
                     margin: 0 auto;
                     li {
                         font-family: $fuente2;
