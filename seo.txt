@@ -1,0 +1,51 @@
+
+/* KEYWORDS Y DESCRIPTION */
+
+INDEX 
+keywords: fotografia, profesional, artistica, viajes, videos, filmmaking.
+description: Bienvenido a mi portfolio, podras encontrar fotografias y contenido audio visual.
+
+VIAJES
+keywords: fotografia, viajes, paisajes, montañas, lagos, street.
+description: Podras encontrar una seleccion de fotografias de distintas partes del mundo.
+
+BARCELONA
+keywords:sagrada familia, castillos, fotografia, ciudad, barcelona, iglesias.
+description: Barcelona es una de las ciudades mas antiguas y bellas para fotografiar.
+
+BARILOCHE
+keywords:montañas, lagos, cascadas, estrellas, paisajes, arcoiris, gaviotas.
+description: Bariloche es un icono de la patagonia lleno de naturaleza, vida y colores.
+
+BOMBINHAS
+keywords:playa, tormenta, peces, atardecer, morro, nubes.
+description: Bombinhas es una playa al sur de brasil y un destino ideal para relajar y capturar momentos.
+
+BUENOS AIRES
+keywords: street, calles, luces, perros, lluvia, trafico, fotografia.
+description: Buenos aires es la ciudad de la furia, una constante de momentos las 24hs del dia.
+
+URUGUAY
+keywords: atardecer, rayos, tormenta, playa, estrellas, campo.
+description: Uruguay y sus atardeceres dignos de conocer y disfrutar.
+
+VIDEOS
+keywords: audiovisual, tango, patinadores, hamburguesa, videos, fotografia, estudio
+description: Estos son algunos de mis trabajos audiovisuales de los ultimos años.
+
+SOBRE MI
+keywords: Biografia, fotografo, videografo, filmaker, patinador, deportista.
+description: Una breve descripcion de mi historia y el camino  recorrido hasta hoy.
+
+CONTACTO
+keywords: contacto, mail, presupuesto, telefono, evento.
+description: Completa el formulario para solicitar tu prespuesto o consultas.
+
+
+/* CORRECCIONES */
+
+* Se agrego un H1 en la pagina de contacto de forma no visible. 
+* Agregado de H1 invisible en el index con la frase "Portfolio de fotografia de Santiago Nicolas Prediger".
+* En el texto "Sombre Mi" se resalto con la etiqueta <strong> los datos mas importantes importante. 
+* Los titulos H1 del resto de las paginas ya habian sido contemplados para el Seo. 
+* Reduccion de tamaño y dimension de las fotografias de los destinos para aligerar la carga del proyecto.
