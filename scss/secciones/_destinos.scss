@@ -10,7 +10,7 @@
 .descripcionDestinos {
     font-family: $fuente2;
     text-align: center;
-    width: 70%;
+    width: 90%;
     margin: 10px auto;
     background-color: hsla(0, 0%, 0%, 0.089);
     border-radius: 6px;
@@ -35,6 +35,7 @@
     .fila {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        margin: 8px;
         img {
             width:100%;
             padding: 8px;
@@ -43,6 +44,9 @@
 }
 
 @media (min-width:760px) {
+    .descripcionDestinos {
+        width: 70%;
+    }
     .galeriaImagenes {
         margin: 50px 10px;
         display: grid;
@@ -55,7 +59,7 @@
         .fila {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
-            margin: 20px 10px;
+            margin: 20px 16px;
         }
     }
 }
